@@ -1,0 +1,228 @@
+*{	
+	font-family: sans-serif;
+}
+#wrapper {
+	width: 970px;
+	background: #245076;
+	padding: 5px;
+}
+#header{
+	display: inline-block;
+	padding: 10px;
+	height: 130px;
+}
+	#python img{
+		width: 100%;
+}
+	#python{
+		width: 400px;
+		display: inline-block;
+		vertical-align: top;
+		height: inherit;
+}
+	.search {
+    	display: inline-block;
+   		vertical-align: top;
+    	width: 260px;
+    	height: inherit;
+    	padding: 10px 0 0 270px;
+    	text-align: right;
+    	color: #FFF;
+    	font-size: 9pt;
+    	font-weight: 100;
+}
+	.search a{
+		color: #f6ce31;
+	}
+	.searchbar{
+		width: 200px;
+    	background-color: #444444;
+    	text-align: center;
+    	padding: 15px 30px;
+    	border-radius: 10px;
+    	margin: 5px 0 0 20px;
+    	box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.8); 
+    	display: inline-block;
+}
+	#searchform {
+    	border-top: 2px #9a9a9a solid;
+    	border-left: 2px #9a9a9a solid;
+    	border-right: 2px #bebebe solid;
+    	border-bottom: 2px #bebebe solid;
+    	height: 30px;
+    	width: 150px;
+    	text-align: center;
+    	font-size: 8pt;
+    	display: inline-block;
+}
+	.go {
+		font-size: 8pt;
+   		font-weight: 100;
+    	padding: 5px 7px;
+    	border-radius: 3px;
+    	background-color: #2f5173;
+    	color: #FFF;
+    	border-top: 2px #bfbfbf solid;
+    	border-left: 2px #bfbfbf solid;
+    	border-right: 2px #616161 solid;
+    	border-bottom: 2px #616161 solid;
+}
+#navigation{
+	display: inline-block;
+	width: 800px;
+	background: #447dad;
+	border-radius: 5px;
+	margin-left: 50px;
+}
+	#navigation ul{
+		list-style-type: none;
+		margin: 0px;
+		padding: 0px;
+		color: white;
+}
+	#navigation li{
+		float: left;
+		color: white;
+}
+	#navigation li a{
+		display: block;
+		text-align: center;
+		text-decoration: none;
+		font-size: 24px;
+		padding: 10px;
+		margin-left: 18px;
+		color: white;
+}
+#links{
+	vertical-align: top;
+	display: inline-block;
+	margin-left: 30px;
+	margin-top: 10px;
+	font-size: 18px;
+	color: white;
+}
+	#links ul{
+		text-align: center;
+		list-style-position: inside;
+		margin-top: 20px;
+		color: white;
+}
+	#links li{
+		padding-top: 5px;
+		color: white;
+}
+	#links a{
+		color: white;
+}
+
+#main_content {
+    display: inline-block;
+    vertical-align: top;
+    width: 600px;
+    padding: 0 20px;
+    color: #FFF;
+    font-size: 10pt;
+    font-weight: 100;
+    text-align: center;
+}
+
+	#main_content p {
+ 	   margin: 10px 0;
+}
+
+	strong {
+    	color: #eec10c;
+    	font: italic 100 20px sans-serif;
+}
+
+	.normal {
+	    font-size: 14pt;
+}
+
+#two {
+    width: 970px;
+    background-color: #FFF;
+    
+}
+
+	h1 {
+	    font-size: 12pt;
+	    font-weight: 500;
+	    margin-bottom: 5px;
+}
+
+	#start {
+  	 	display: inline-block;
+  		vertical-align: top;
+  		text-align: center;
+	    width: 350px;
+	    margin: 5px 20px 0 150px;
+	    padding: 5px 0 10px 0;
+	    font-size: 10pt;
+	    font-weight: 100;
+	    border-top: 4px #7da7d1 solid;
+}
+
+#start_content, #apps_content {
+    width: 250px;
+}
+
+#start_content ul, #apps_content ul {
+    padding-left: 20px;
+    list-style-type: square;
+}
+
+#start_content ul a, #apps_content ul a {
+    font-size: 10pt;
+}
+
+#start_content a, #apps_content a {
+    color: #86add4;
+    text-decoration: none;
+    font-size: 8pt;
+}
+
+#start_content li, #apps_content li {
+    margin-top: 3px;
+}
+
+#apps {
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    width: 400px;
+    margin: 5px 20px 0 0px;
+    padding: 5px 0 10px 0;
+    font-size: 10pt;
+    font-weight: 100;
+    border-top: 4px #7da7d1 solid;
+}
+
+	#footer {
+   		width: 970px;
+    	background: #2f5174;
+    	background: linear-gradient(#2f5174, #4576a8);
+    	text-align: center;
+    	padding-bottom: 10px;
+}
+
+	#footer li {
+    	display: inline-block;
+		padding: 40px 20px 15px 20px;
+}	
+
+	#footer li a {
+    	 color: #86add4;
+    	 text-decoration: none;
+    	 font-weight: 200;
+    	 font-size: 20px;
+}
+
+	.footer {
+	    font-size: 7pt;
+	    color: #86add4;
+} 
+}
+span{
+	color: black;
+}
